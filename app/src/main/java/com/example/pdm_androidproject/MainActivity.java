@@ -37,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
         EditSenha = findViewById(R.id.EditSenha);
 
         Intent intention = new Intent(this, MainActivity2.class);
+        String email = EditEmail.getText().toString();
+        String senha = EditSenha.getText().toString();
+
+        intention.putExtra("email", email);
+        intention.putExtra("senha", senha);
+
         startActivity(intention);
     }
 }
