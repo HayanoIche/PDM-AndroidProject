@@ -14,7 +14,7 @@
         android:layout_marginStart="130dp"
         android:layout_marginBottom="62dp"
         android:onClick="Goto_next_activity"
-        android:text="Button"
+        android:text="CADASTRAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
